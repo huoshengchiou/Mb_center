@@ -31,7 +31,7 @@ function Mlogcard() {
               name="password"
               placeholder=""
             ></input>
-            <tr></tr>
+            <br />
             <button className="M-loginBtn" style={{ display: "inline-block" }}>
               登入
             </button>
@@ -66,7 +66,7 @@ function Mlogcard() {
               name="2password"
               placeholder="Confirm Password"
             ></input>
-            <tr></tr>
+            <br />
             <button className="M-regBtn" style={{ display: "inline-block" }}>
               註冊
             </button>

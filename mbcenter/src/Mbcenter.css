@@ -15,7 +15,7 @@ body {
   /* border: 1px solid black; */
   /* margin: 10px 10px; */
   position: relative;
-  background: coral;
+  background: #f9a451;
   padding-top: 0.1rem;
   /* overflow: hidden; */
 }
@@ -85,7 +85,7 @@ body {
   top: 8rem;
 }
 .M-loginWrapper.active {
-  background: cyan;
+  background: #79cee2;
 }
 .M-moveBrick1.active {
   transform: translateX(6.15rem);
@@ -147,6 +147,7 @@ body {
   position: absolute;
   top: 15rem;
   left: 2rem;
+  background: gold;
 }
 
 .M-regBtn {
@@ -168,4 +169,5 @@ body {
   position: absolute;
   top: 15rem;
   left: 2rem;
+  background: blue;
 }
