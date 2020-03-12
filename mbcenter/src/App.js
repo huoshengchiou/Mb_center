@@ -16,11 +16,15 @@ import Fakenav from "./components/Fakenav";
 
 import Mlogcard from "./components/Mlogcard";
 
+// 會員中心主頁
+import Mbindex from "./pages/Mbindex";
+
 function App() {
   return (
     <>
       {/* <Fakenav /> */}
-      <Mlogcard />
+      {/* <Mlogcard /> */}
+      <Mbindex />
     </>
   );
 }

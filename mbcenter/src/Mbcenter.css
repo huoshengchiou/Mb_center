@@ -4,7 +4,7 @@
   margin: 0;
 }
 
-/* //登入卡 */
+/* 登入卡 */
 body {
   font-family: "Noto Sans TC", sans-serif;
   /* font-family: "Helvetica"; */
@@ -13,9 +13,10 @@ body {
   width: 23.4rem;
   height: 41.7rem;
   /* border: 1px solid black; */
+  /* margin: 0; */
   /* margin: 10px 10px; */
   position: relative;
-  background: #f9a451;
+  background: #79cee2;
   padding-top: 0.1rem;
   /* overflow: hidden; */
 }
@@ -85,7 +86,7 @@ body {
   top: 8rem;
 }
 .M-loginWrapper.active {
-  background: #79cee2;
+  background: #f9a451;
 }
 .M-moveBrick1.active {
   transform: translateX(6.15rem);
@@ -170,4 +171,251 @@ body {
   top: 15rem;
   left: 2rem;
   background: blue;
+}
+
+/* --------------------會員收藏遊戲詳細小卡元件-------- */
+.collectcarddetailWrapper {
+  width: 46.8rem;
+  height: 19.75rem;
+  border: 1px solid black;
+  display: flex;
+}
+
+.collectcarddetailLeft {
+  /* width: 22rem;
+  height: 17rem;
+  border: 1px solid green; */
+}
+
+.collectcarddetailImg {
+  margin-top: 1.5rem;
+  width: 22rem;
+  height: 14rem;
+  /* border: 1px solid indianred; */
+}
+
+.collectcarddetailRight {
+  width: 24.5rem;
+  height: 19.5rem;
+  /* border: 1px solid indianred; */
+  position: relative;
+}
+
+.collectcarddetailRight h4 {
+  line-height: 4rem;
+  font-weight: 900;
+}
+
+.collectcarddetailRight p {
+  font-size: 0.85rem;
+}
+
+.collectcarddetailCbtn {
+  width: 3rem;
+  height: 3rem;
+  background: khaki;
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.M-collectcarddetailStart {
+  border: 1px solid #79cee2;
+  color: #79cee2;
+  font-size: 1.2rem;
+  margin-left: 2rem;
+  text-decoration: none;
+}
+
+/* ---------------------加好友小卡----------------- */
+.M-addfriendCardWrapper {
+  width: 23rem;
+  height: 13rem;
+  /* border: 1px solid black; */
+  /* box-shadow: 0px 3px 6px #707070; */
+  position: relative;
+}
+
+.M-addfriendCardWrapper svg {
+  -webkit-filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.7));
+  fill: #fff;
+}
+
+/* 背景圓 */
+.M-addfriendcardCricle {
+  width: 19rem;
+  height: 13rem;
+  /* border: 1px solid red; */
+  margin-left: 4rem;
+  position: relative;
+}
+
+.M-addfriendPhoto {
+  width: 7.5rem;
+  height: 7.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.7rem;
+  left: 0.2rem;
+}
+
+.M-addfriendBricktop {
+  width: 8rem;
+  height: 2rem;
+  /* border: 1px solid black; */
+  position: absolute;
+  background: #79cee2;
+  top: 0;
+}
+
+.M-addfriendBrickdwn {
+  width: 8rem;
+  height: 2rem;
+  /* border: 1px solid black; */
+  position: absolute;
+  background: #79cee2;
+  bottom: 0.1rem;
+  right: 0.25rem;
+}
+
+.M-addfriendDes {
+  width: 15.5rem;
+  margin-left: 3rem;
+  height: 13rem;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+.M-addfrienddesLeft {
+  width: 15.8rem;
+  height: 12.8rem;
+  /* border: 1px solid black; */
+}
+
+.M-addfrienddesLeft h5 {
+  line-height: 5rem;
+  font-weight: 900;
+}
+
+.M-addfrienddesLeft p {
+  margin-left: 2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.M-addfrienddesLeft h6 {
+  font-weight: 900;
+}
+
+/* 加入連結 */
+
+.M-addfrienddesLeft a {
+  padding: 5px;
+  margin-left: 8rem;
+  font-weight: 900;
+  color: #79cee2;
+  border: 1px solid #79cee2;
+}
+
+/* .M-addfrienddesRight {
+  margin-left: 0.1rem;
+  width: 4rem;
+  height: 12.8rem;
+  border: 1px solid red;
+} */
+
+.M-addfriendcardcbtn {
+  width: 4rem;
+  height: 4rem;
+  border: 1px dotted black;
+  /* background: cornflowerblue; */
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+}
+
+/* ------------------會員中心好友列表小卡---------------- */
+.M-friendcollectWrapper {
+  width: 46.875rem;
+  height: 10.75rem;
+  padding: 0.3rem;
+  border: 1px solid black;
+  /* display: flex;
+  justify-content: space-around; */
+}
+
+.M-friendcollectCard {
+  width: 20rem;
+  height: 10rem;
+  /* background: teal; */
+  border: 1px solid #adb6bd;
+  padding: 0.6rem;
+  /* position: relative; */
+  display: flex;
+}
+
+.M-friendcollectCardleft {
+  width: 7.5rem;
+  height: 9rem;
+  /* border: 1px solid black; */
+}
+
+.M-friendcollectPhoto {
+  width: 6rem;
+  height: 6rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.M-friendcollectClear {
+  margin-top: 0.8rem;
+  border: 1px solid #f9a451;
+  color: #f9a451;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.M-friendcollectCardright {
+  width: 11rem;
+  height: 9rem;
+  /* border: 1px solid black; */
+}
+
+.M-friendcollectCardright h5 {
+  font-size: 1.875rem;
+  margin-top: 0.4rem;
+  line-height: 4rem;
+}
+
+.M-friendcollectCardright p {
+  font-size: 1rem;
+  color: #adb6bd;
+  overflow: hidden;
+  /* 指定保留行數*/
+  line-height: 1.2rem;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.M-friendcollectDot {
+  width: 1rem;
+  height: 1rem;
+  background: green;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 7.5rem;
+}
+
+.M-friendcollectCardright span {
+  margin-left: 0.4rem;
+  margin-bottom: 0.8rem;
+  font-weight: 900;
 }
